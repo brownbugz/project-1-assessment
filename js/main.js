@@ -42,6 +42,7 @@ function deductNum() {
 function addButton() {
     addNum();
     showResults();
+    negativeRed();
 }
 
 function minusButton() {
