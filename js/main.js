@@ -47,10 +47,12 @@ function addButton() {
 function minusButton() {
     deductNum();
     showResults();
+    negativeRed();
 }
 
 function negativeRed() {
     if (answers < 0) {
-        answersBox.style.color = "red";
+        answersBox.innerHTML = '<span style="color: #ff0000">' + answers + '</span>';
+        console.log('this changes colors');
     }
 }
