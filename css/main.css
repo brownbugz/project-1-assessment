@@ -1,0 +1,61 @@
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+}
+
+button {
+    border: 2px solid gray;
+    color: white;
+    background-color: gray;
+    height: 20%;
+    width: 10%;
+
+}
+
+#results {
+    display: flex;
+    border: 2px solid gray;
+    height: 30vmin;
+    width: 30vmin;
+    justify-content: center;
+}
+
+/* body {
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    display: grid;
+    grid-template-columns: 20vmin 20vmin 20vmin;
+    grid-template-rows: 20vmin 20vmin;
+    justify-content: center;
+} */
+
+#addSign, #deductSign {
+    font-size: 50px;
+    color: white;
+    height: 100%;
+}
+
+input {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    border: 2px solid gray;
+    height: 100%;
+    width: 100%:
+}
+
+#answers {
+    color: black;
+    text-align: center;
+}
+
+#inputSpace {
+    color: black;
+    height: 25%;
+    width: 25%
+
+}
+
